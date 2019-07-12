@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Overview from './Overview'; 
 import AllDrugs from './AllDrugs';
 import TrialDrugs from './TrialDrugs';
+import SingleDrug from './SingleDrug'; 
 
 
 const routes = [
@@ -21,6 +22,10 @@ const routes = [
   {
     path: "/trialdrugs",
     main: TrialDrugs
+  },
+  {
+    path: "/singledrug",
+    main: SingleDrug
   }
 ];
 

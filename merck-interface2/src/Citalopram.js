@@ -20,6 +20,7 @@ function Citalopram () {
             <div style={{marginLeft:"18px", marginTop: "40px", color:"purple"}}>
                 <h4>General</h4>
             </div>
+            {/* Beginning Card Drug Trial Meta Info*/}
             <div class="card mb-3" style={{ width: "90%", marginTop: "20px", marginLeft:"15px"}}>
                 <div class="row no-gutters">
                     <div class="col-md-3">

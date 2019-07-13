@@ -45,8 +45,8 @@ function App() {
         <div
           style={{
             padding: "10px",
-            width: "20%",
-            height: "3000px",
+            width: "15%",
+            height: "4000px",
             background: "#f0f0f0"
           }}
         >
@@ -65,8 +65,11 @@ function App() {
             <li style={{marginBottom: "5%"}}>
               <Link to="/alldrugs">All Drugs</Link>
             </li>
+            <li style={{marginBottom: "5%"}}>
+              <Link to="/trialdrugs" >Trial Drugs</Link>
+            </li>
             <li>
-              <Link to="/trialdrugs">Trial Drugs</Link>
+              <Link to="/">Raw Data</Link>
             </li>
           </ul>
 

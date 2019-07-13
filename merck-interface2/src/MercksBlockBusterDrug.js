@@ -6,6 +6,13 @@ import BarDisplay from './BarDisplay';
 import BarDisplayNegative from './BarDisplayNegative';
 import BarDisplayEfficacy from './BarDisplayEfficacy';
 import BarDisplaySeverity from './BarDisplaySeverity';
+import BarDisplayHappiness  from './BarDisplayHappiness'; 
+import ChartDisplayComparison from './ChartDisplayComparison'; 
+import ChartDisplayLonely from './ChartDisplayLonely'; 
+import ChartDisplayDepressed from './ChartDisplayDepressed';
+import ChartDisplayGoals from './ChartDisplayGoals';
+import ChartDisplayContent from './ChartDisplayContent'; 
+import ChartDisplayAgree from './ChartDisplayAgree'; 
 import GeoMap from './GeoMap'; 
 import AgePieMen from './AgePieMen'; 
 import AgePieWomen from './AgePieWomen';
@@ -15,7 +22,7 @@ function MercksBlockBusterDrug () {
     return (
         <div style={{height:"100%"}}>
             <div style={{marginLeft:"18px", marginTop: "20px"}}>
-                <h1>Citalopram</h1>
+                <h1>Merck's Blockbuster sDrug</h1>
             </div>
             <div style={{marginLeft:"18px", marginTop: "40px", color:"purple"}}>
                 <h4>General</h4>
@@ -39,7 +46,7 @@ function MercksBlockBusterDrug () {
                                 <h5 class="card-title"># Active Testers</h5>      
                             </div>
                             <div class="row">
-                                <h3 style={{color:"purple"}}>150</h3>
+                                <h3 style={{color:"purple"}}>2364</h3>
                             </div>  
                         </div>
                     </div>
@@ -57,7 +64,7 @@ function MercksBlockBusterDrug () {
             </div>
             {/* Start Results  */}
             <div style={{marginLeft:"18px", marginTop: "40px", color:"purple"}}>
-                <h2>Results</h2>
+                <h2>Results Overview</h2>
             </div>
             <div class="row" style={{height:"100px"}}>
                 <div class="col-md-6" style={{height:"90%" }}>
@@ -69,14 +76,43 @@ function MercksBlockBusterDrug () {
                     <BarDisplayEfficacy/>
                 </div>
             </div>
-            <div class="row" style={{marginTop:"5%", height:"100px"}}>
-                <div class="col-md-6" style={{height:"90%" }}>
-                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Severity of Side Effects</h4>
-                    <BarDisplayNegative/>
+            <div style={{marginLeft:"18px", marginTop: "8%", color:"purple"}}>
+                <h2>ePRO Details</h2>
+            </div>
+            <div class="row" style={{marginTop:"4%", height:"100px", marginBottom:"5%"}}>
+                <div class="col-md-6" style={{height:"90%"}}>
+                    <h6 style={{color:"purple", marginLeft:"18px", marginTop:"10px"}}>On a scale of 1 to 7, 7 being the highest, how happy do you consider yourself?</h6>
+                    <BarDisplayHappiness/>
                 </div>
-                <div class="col-md-6" style={{ height:"90%" }}>
-                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Severity of Side Effects</h4>
-                    <BarDisplaySeverity/>
+            </div>
+            <div class ="row" style={{marginTop:"10%", height:'400px', marginBottom:'5%'}}>
+                <div class="col-md-6" style={{ height:"400px" }}>
+                    <h6 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>How often do you feel lonely?</h6>
+                    <ChartDisplayLonely/>
+                </div>
+                <div class="col-md-6" style={{ height:"400px" }}>
+                    <h6 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Compare to your colleagues or friends, do you consider yourself happier than most of them?</h6>
+                    <ChartDisplayComparison/>
+                </div>
+            </div>
+            <div class ="row" style={{marginTop:"10%", height:'400px', marginBottom:'5%'}}>
+                <div class="col-md-6" style={{ height:"400px" }}>
+                    <h6 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>How often do you feel depressed?</h6>
+                    <ChartDisplayDepressed/>
+                </div>
+                <div class="col-md-6" style={{ height:"400px" }}>
+                    <h6 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>How often do you procrastinate about that status of your personal goals in life?</h6>
+                    <ChartDisplayGoals/>
+                </div>
+            </div>
+            <div class ="row" style={{marginTop:"10%", height:'400px', marginBottom:'5%'}}>
+                <div class="col-md-6" style={{ height:"400px" }}>
+                    <h6 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Please state your level of agreement for the following statements: I am content with the current state of my life! </h6>
+                    <ChartDisplayContent/>
+                </div>
+                <div class="col-md-6" style={{ height:"400px" }}>
+                    <h6 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Please state your level of agreement for the following statements: Currently, I don’t need to worry about the finances in my life.</h6>
+                    <ChartDisplayAgree/>
                 </div>
             </div>
             {/* Start DEMOGRAPHICS */}
@@ -86,11 +122,11 @@ function MercksBlockBusterDrug () {
              {/* AgePies */}
              <div class="row" style={{marginTop:"1%", height:"100px"}}>
                 <div class="col-md-6" style={{height:"300px" }}>
-                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Women: 122</h4>
+                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Women: 1064</h4>
                     <AgePieWomen/>
                 </div>
                 <div class="col-md-6" style={{height:"300px" }}>
-                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Men:  144</h4>
+                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Men: 1300</h4>
                     <AgePieMen/>
                 </div>
             </div>
@@ -167,7 +203,7 @@ function MercksBlockBusterDrug () {
                                 <h6 class="card-title">Report</h6>  
                             </div>  
                             <div class="row">
-                                <p style={{color:"purple"}}><small>Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.</small></p>
+                                <p style={{color:"purple"}}><small>Nach ca. 5 Monaten Citalopram setzten die NW ein. Genau das Gleiche hatte ich zwei Jahre zuvor mit Venlafaxin, zusätzlich noch Entzündungen im Mund. Damals war ich bei 12 Ärzten, es wurde das Sjögren Sandrom vermutet, ich musste sogar eine Biopsie über mich ergehen lassen. Da meine Psychiaterin nicht glaubte, habe ich es selbst ausgeschlichen und dann waren alle Symptome weg. Dafür bekam ich aber eine Psychose, da ich wohl zu schnell ausgeschlichen habe. Daraufhin Antipsychotika, die eine Depression auslösten mit starken Ängsten. Dann nahm ich aus Verzweiflung Citalopram - siehe oben. Wer hat das Gleiche mitgemacht? Wie kann man richtig ausschleichen? Meine jetzige Psychiaterin sagte in zwei Wochen!</small></p>
                             </div>  
                         </div>
                     </div>
@@ -242,7 +278,7 @@ function MercksBlockBusterDrug () {
                                 <h6 class="card-title">Report</h6>  
                             </div>  
                             <div class="row">
-                                <p style={{color:"purple"}}><small>Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.</small></p>
+                                <p style={{color:"purple"}}><small>Nach einer für mich sehr traumatischen Beziehung zu einem Menschen mit Borderline Persönlichkeitsstörung, die ich nicht von Beginn an kannte, entwickelte ich eine „depressive Verstimmung“- Ständiges Kreisen der Gedanken um das Warum des Endes der Beziehung und die widersprüchlichen Signale an meine Personen schlauchten, laugten aus, ermüdeten und führten zu einer Abstumpfung. Als ich nicht mehr weiter wusste, da ging ich zum Psychiater, der mir Citalopram verschrieb. Ich war nicht sehr überzeugt von Psychopharmaka und glaubte auch nicht an eine wirkliche Wirkung. Ein Schlafmittel verschrieb mir der Psychiater ebenfalls. Letzteres ließ mich zwar zombiehaft erscheinen (jedenfalls fühlte ich mich so), aber endlich hörte das kreisen der Gedanken auf. Eine Wohltat! Die Wirkung des Citaloprams setzte bei mir nach ca. 10 Tagen ein...</small></p>
                             </div>  
                         </div>
                     </div>

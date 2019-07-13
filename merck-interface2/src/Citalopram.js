@@ -36,20 +36,20 @@ function Citalopram () {
                     <div class="col-md-3">
                         <div class="card-body">
                             <div class="row">
-                                <h5 class="card-title"># Testers</h5>      
+                                <h5 class="card-title"># Feedback</h5>      
                             </div>
                             <div class="row">
-                                <h3 style={{color:"purple"}}>264</h3>
+                                <h3 style={{color:"purple"}}>6352</h3>
                             </div>  
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card-body">
                             <div class="row">
-                                <h5 class="card-title">Testday</h5>  
+                                <h5 class="card-title">Year of Launch</h5>  
                             </div>  
                             <div class="row">
-                                <h3 style={{color:"purple"}}>30 / 90</h3>
+                                <h3 style={{color:"purple"}}>1992</h3>
                             </div>  
                         </div>
                     </div>
@@ -86,11 +86,11 @@ function Citalopram () {
              {/* AgePies */}
              <div class="row" style={{marginTop:"1%", height:"100px"}}>
                 <div class="col-md-6" style={{height:"300px" }}>
-                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Women: 122</h4>
+                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Women: 3811</h4>
                     <AgePieWomen/>
                 </div>
                 <div class="col-md-6" style={{height:"300px" }}>
-                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Men:  144</h4>
+                    <h4 style={{color:"purple", marginLeft:"18px", marginTop:"40px"}}>Men:  2540</h4>
                     <AgePieMen/>
                 </div>
             </div>

@@ -7,7 +7,7 @@ import Overview from './Overview';
 import AllDrugs from './AllDrugs';
 import TrialDrugs from './TrialDrugs';
 import SingleDrug from './SingleDrug'; 
-
+import Citalopram from './Citalopram';
 
 const routes = [
   {
@@ -26,6 +26,10 @@ const routes = [
   {
     path: "/singledrug",
     main: SingleDrug
+  },
+  {
+    path: '/citalopram',
+    main: Citalopram
   }
 ];
 
@@ -87,25 +91,3 @@ function App() {
 }
 
 export default App;
-
-
-
-// class App extends React.Component {
-//   render() {
-//     return (
-//       <Router>
-//         <Nav defaultActiveKey="/home" className="flex-column">
-//             <Nav.Link href="/home" style={{display: "flex"}}>Active</Nav.Link>
-//             <Nav.Link eventKey="link-1">Link</Nav.Link>
-//             <Nav.Link eventKey="link-2">Link</Nav.Link>
-//             <Nav.Link eventKey="disabled" disabled>
-//               Disabled
-//             </Nav.Link>
-//           </Nav>
-//           <Route path="/home" component ={Overview}/>
-//       </Router>
-//     );
-//   }
-// }
-
-// export default App;

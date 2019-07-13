@@ -82,15 +82,17 @@ function TrialDrugs () {
             <div class="card mb-3" style={{ width: "90%", marginTop: "20px", marginLeft:"15px"}}>
                 <div class="row no-gutters">
                     <div class="col-md-3">
-                    <Image src={drug2} fluid style={{marginLeft:"20px", marginTop:"10px", marginBottom: "10px"}}/>
+                    <Image src="https://www.cryptonewsz.com/wp-content/uploads/2019/02/Dogecoin-DOGE-Price-Analysis-Feb.12.jpg" fluid style={{marginLeft:"20px", marginTop:"10px", marginBottom: "10px", width: "90%"}}/>
                     </div>
                     <div class="col-md-3">
                     <div class="card-body">
-                        <h5 class="card-title">Aspirin Complex</h5>
+                        <h5 class="card-title">Merck's Blockbuster Drug</h5>
                         <p class="card-text">Components:</p>
-                        <p class="card-text" style={{marginBottom: "5px"}}><small class="text-muted">Acetylsalicylsäure</small></p>
-                        <p class="card-text" style={{marginBottom: "5px"}}><small class="text-muted">Pseudoephedrinhydrochlorid</small></p>
-                        <Button size="sm" color="purple" style={{marginTop:"12px"}}>See Details</Button>       
+                        <p class="card-text" style={{marginBottom: "5px"}}><small class="text-muted">magic1</small></p>
+                        <p class="card-text" style={{marginBottom: "5px"}}><small class="text-muted">magic2</small></p>
+                        <Link to="/blockbuster">
+                            <Button size="sm" color="purple" style={{marginTop:"12px"}}>See Details</Button>      
+                        </Link> 
                     </div>
                     </div>
                     <div class="col-md-3">
@@ -127,16 +129,16 @@ function TrialDrugs () {
                     <div class="col-md-3">
                     <div class="card-body">
                         <div class="row">
-                            <h5 class="card-title">Total Ratings</h5>      
+                            <h5 class="card-title">Active Participants</h5>      
                         </div>
                         <div class="row">
-                            <h3 style={{color:"purple"}}>562</h3>
+                            <h3 style={{color:"purple"}}>150</h3>
                         </div>  
                         <div class="row">
                             <h5 class="card-title">Launchyear</h5>  
                         </div>  
                         <div class="row">   
-                            <h3 style={{color:"purple"}}>2014</h3>  
+                            <h3 style={{color:"purple"}}>2019</h3>  
                         </div> 
                     </div>
                     </div>

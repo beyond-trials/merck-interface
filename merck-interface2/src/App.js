@@ -8,6 +8,7 @@ import AllDrugs from './AllDrugs';
 import TrialDrugs from './TrialDrugs';
 import SingleDrug from './SingleDrug'; 
 import Citalopram from './Citalopram';
+import MercksBlockBusterDrug from './MercksBlockBusterDrug';
 
 const routes = [
   {
@@ -30,6 +31,10 @@ const routes = [
   {
     path: '/citalopram',
     main: Citalopram
+  },
+  {
+    path: '/blockbuster',
+    main: MercksBlockBusterDrug
   }
 ];
 
@@ -41,7 +46,7 @@ function App() {
           style={{
             padding: "10px",
             width: "20%",
-            height: "1000px",
+            height: "3000px",
             background: "#f0f0f0"
           }}
         >

@@ -11,7 +11,7 @@ import AgePieMen from './AgePieMen';
 import AgePieWomen from './AgePieWomen';
 import citalopram from './citralopram.png';
 
-function Citalopram () {
+function MercksBlockBusterDrug () {
     return (
         <div style={{height:"100%"}}>
             <div style={{marginLeft:"18px", marginTop: "20px"}}>
@@ -24,22 +24,22 @@ function Citalopram () {
             <div class="card mb-3" style={{ width: "90%", marginTop: "20px", marginLeft:"15px"}}>
                 <div class="row no-gutters">
                     <div class="col-md-3">
-                    <Image src={citalopram} fluid style={{marginLeft:"20px", marginTop:"10px", marginBottom: "10px"}}/>
+                    <Image src="https://www.cryptonewsz.com/wp-content/uploads/2019/02/Dogecoin-DOGE-Price-Analysis-Feb.12.jpg" fluid style={{marginLeft:"20px", marginTop:"10px", marginBottom: "10px", width: "80%"}}/>
                     </div>
                     <div class="col-md-3">
                     <div class="card-body">
-                        <h5 class="card-title">Antidepressiva</h5>
+                        <h5 class="card-title">Merck's Blockbuster Drug</h5>
                         <p class="card-text">Agents</p>
-                        <p class="card-text" style={{marginBottom: "5px"}}><small class="text-muted">Citalopram</small></p>
+                        <p class="card-text" style={{marginBottom: "5px"}}><small class="text-muted">Doge</small></p>
                     </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card-body">
                             <div class="row">
-                                <h5 class="card-title"># Testers</h5>      
+                                <h5 class="card-title"># Active Testers</h5>      
                             </div>
                             <div class="row">
-                                <h3 style={{color:"purple"}}>264</h3>
+                                <h3 style={{color:"purple"}}>150</h3>
                             </div>  
                         </div>
                     </div>
@@ -49,7 +49,7 @@ function Citalopram () {
                                 <h5 class="card-title">Testday</h5>  
                             </div>  
                             <div class="row">
-                                <h3 style={{color:"purple"}}>30 / 90</h3>
+                                <h3 style={{color:"purple"}}>11 / 90</h3>
                             </div>  
                         </div>
                     </div>
@@ -167,7 +167,7 @@ function Citalopram () {
                                 <h6 class="card-title">Report</h6>  
                             </div>  
                             <div class="row">
-                                <p style={{color:"purple"}}><small>Nach einer für mich sehr traumatischen Beziehung zu einem Menschen mit Borderline Persönlichkeitsstörung, die ich nicht von Beginn an kannte, entwickelte ich eine „depressive Verstimmung“- Ständiges Kreisen der Gedanken um das Warum des Endes der Beziehung und die widersprüchlichen Signale an meine Personen schlauchten, laugten aus, ermüdeten und führten zu einer Abstumpfung. Als ich nicht mehr weiter wusste, da ging ich zum Psychiater, der mir Citalopram verschrieb. Ich war nicht sehr überzeugt von Psychopharmaka und glaubte auch nicht an eine wirkliche Wirkung. Ein Schlafmittel verschrieb mir der Psychiater ebenfalls. Letzteres ließ mich zwar zombiehaft erscheinen (jedenfalls fühlte ich mich so), aber endlich hörte das kreisen der Gedanken auf. Eine Wohltat! Die Wirkung des Citaloprams setzte bei mir nach ca. 10 Tagen ein...</small></p>
+                                <p style={{color:"purple"}}><small>Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.</small></p>
                             </div>  
                         </div>
                     </div>
@@ -204,13 +204,13 @@ function Citalopram () {
                                 <h6 class="card-title">Overall Satisfaction</h6>      
                             </div>
                             <div class="row">
-                                <h6 style={{color:"purple"}}>87%</h6>
+                                <h6 style={{color:"purple"}}>100%</h6>
                             </div>  
                             <div class="row">
                                 <h6 class="card-title">Efficacy</h6>      
                             </div>
                             <div class="row">
-                                <h6 style={{color:"purple"}}>96%</h6>
+                                <h6 style={{color:"purple"}}>100%</h6>
                             </div>  
                             <div class="row">
                                 <h6 class="card-title">Ease of Use</h6>      
@@ -242,7 +242,7 @@ function Citalopram () {
                                 <h6 class="card-title">Report</h6>  
                             </div>  
                             <div class="row">
-                                <p style={{color:"purple"}}><small>Nach ca. 5 Monaten Citalopram setzten die NW ein. Genau das Gleiche hatte ich zwei Jahre zuvor mit Venlafaxin, zusätzlich noch Entzündungen im Mund. Damals war ich bei 12 Ärzten, es wurde das Sjögren Sandrom vermutet, ich musste sogar eine Biopsie über mich ergehen lassen. Da meine Psychiaterin nicht glaubte, habe ich es selbst ausgeschlichen und dann waren alle Symptome weg. Dafür bekam ich aber eine Psychose, da ich wohl zu schnell ausgeschlichen habe. Daraufhin Antipsychotika, die eine Depression auslösten mit starken Ängsten. Dann nahm ich aus Verzweiflung Citalopram - siehe oben. Wer hat das Gleiche mitgemacht? Wie kann man richtig ausschleichen? Meine jetzige Psychiaterin sagte in zwei Wochen! </small></p>
+                                <p style={{color:"purple"}}><small>Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.Doge. I like it.</small></p>
                             </div>  
                         </div>
                     </div>
@@ -252,4 +252,4 @@ function Citalopram () {
     )
 }
 
-export default Citalopram; 
+export default MercksBlockBusterDrug; 
